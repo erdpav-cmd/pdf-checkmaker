@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Счет {{invoice_id}}</title>
+</head>
+<body>
+  <h1>Счет / Invoice {{invoice_id}}</h1>
+
+  <p><strong>Дата:</strong> {{date}}</p>
+  <p><strong>Клиент:</strong> {{customer_name}}</p>
+  <p><strong>Email:</strong> {{customer_email}}</p>
+  <p><strong>Телефон:</strong> {{customer_phone}}</p>
+  <p><strong>Адрес:</strong> {{customer_address}}</p>
+
+  <h2>Позиции</h2>
+  {{items_table}}
+
+  <h2>Итог</h2>
+  <p><strong>Валюта:</strong> {{currency}}</p>
+  <p><strong>Сумма:</strong> {{total}}</p>
+  <p><strong>Статус:</strong> {{status}}</p>
+
+  <h2>Примечание</h2>
+  <p>{{notes}}</p>
+
+  <h2>Служебные данные</h2>
+  <p><strong>Источник:</strong> {{source_file}}</p>
+  <p><strong>Сгенерировано:</strong> {{generated_at}}</p>
+</body>
+</html>

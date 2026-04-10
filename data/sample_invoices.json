@@ -1,0 +1,80 @@
+[
+  {
+    "invoice_id": "INV-1001",
+    "date": "2026-04-10",
+    "customer_name": "ООО Ромашка",
+    "customer_email": "info@romashka.example",
+    "customer_phone": "+7 900 123-45-67",
+    "customer_address": "Москва, ул. Ленина, 10",
+    "currency": "RUB",
+    "total": "12500.00",
+    "status": "Оплачен",
+    "notes": "Спасибо за сотрудничество.",
+    "items": [
+      {
+        "name": "Разработка макета PDF",
+        "quantity": 1,
+        "price": 10000,
+        "amount": 10000
+      },
+      {
+        "name": "Настройка шаблона",
+        "quantity": 1,
+        "price": 2500,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "invoice_id": "INV-1002",
+    "date": "2026-04-11",
+    "customer_name": "ИП Сидоров",
+    "customer_email": "sidorov@example.com",
+    "customer_phone": "+7 901 555-44-33",
+    "customer_address": "Санкт-Петербург, Невский пр., 25",
+    "currency": "RUB",
+    "total": "8900.00",
+    "status": "Ожидает оплаты",
+    "notes": "Оплатить в течение 5 рабочих дней.",
+    "items": [
+      {
+        "name": "Верстка HTML-шаблона",
+        "quantity": 1,
+        "price": 5900,
+        "amount": 5900
+      },
+      {
+        "name": "Подготовка тестовых данных",
+        "quantity": 1,
+        "price": 3000,
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "invoice_id": "INV-1003",
+    "date": "2026-04-12",
+    "customer_name": "Acme Studio",
+    "customer_email": "billing@acme.example",
+    "customer_phone": "+1 202 555 0101",
+    "customer_address": "Cupertino, Infinite Loop 1",
+    "currency": "USD",
+    "total": "420.00",
+    "status": "Draft",
+    "notes": "Demo invoice for cross-platform PDF export.",
+    "items": [
+      {
+        "name": "Template design",
+        "quantity": 2,
+        "price": 120,
+        "amount": 240
+      },
+      {
+        "name": "PDF generation setup",
+        "quantity": 1,
+        "price": 180,
+        "amount": 180
+      }
+    ]
+  }
+]
