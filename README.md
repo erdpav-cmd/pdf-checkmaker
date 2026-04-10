@@ -1,4 +1,4 @@
-# PDF Maker
+# PDF Checkmaker
 
 Консольный Python-скрипт для генерации PDF по данным из `CSV` или `JSON` и HTML-шаблонам.
 
